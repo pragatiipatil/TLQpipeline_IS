@@ -1,0 +1,24 @@
+DROP DATABASE IF EXISTS `tcss562`;
+CREATE DATABASE IF NOT EXISTS `tcss562`;
+USE `tcss562`;
+
+CREATE TABLE ORDERS (
+	region VARCHAR(256) NOT NULL,
+	country VARCHAR(256) NOT NULL,
+	itemType VARCHAR(256) NOT NULL,
+	salesChannel VARCHAR(256) NOT NULL,
+	orderPriority VARCHAR(256) NOT NULL,
+	orderDate DATE NOT NULL,
+	orderId VARCHAR(256) NOT NULL,
+	shipDate DATE NOT NULL,
+	unitsSold INT NOT NULL,
+	unitPrice FLOAT NOT NULL,
+	unitCost FLOAT NOT NULL,
+	totalRevenue FLOAT NOT NULL,
+	totalCost FLOAT NOT NULL,
+	totalProfit FLOAT NOT NULL,
+	orderProcessingTime BIGINT NOT NULL,
+	grossMargin FLOAT NOT NULL,
+    PRIMARY KEY (orderId),
+    UNIQUE (orderId)
+);

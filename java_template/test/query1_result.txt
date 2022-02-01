@@ -1,0 +1,1 @@
+[[Avg_Processing_Days,Avg_Gross_Margin,Avg_Unit_Sold,Max_Unit_Sold,Min_Unit_Sold,Total_Unit_Sold,Total_Revenue,Total_Profit,Number_of_Orders],[1.04170833,0.3433359962254763,5053.988,9998,13,5053988,1.3273218396245117E9,3.9120261180633545E8,1000]]
